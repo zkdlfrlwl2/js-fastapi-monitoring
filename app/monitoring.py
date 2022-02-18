@@ -4,7 +4,7 @@ from typing import Callable
 import numpy as np
 from prometheus_client import Histogram
 from prometheus_fastapi_instrumentator import Instrumentator, metrics
-from prometheus_fastapi_instrumentator.metircs import Info
+from prometheus_fastapi_instrumentator.metrics import Info
 
 NAMESPACE = os.environ.get("METRICS_NAMEPSACE", "fastapi")
 SUBSYSTEM = os.environ.get("METRICS_SUBSYSTEM", "model")
