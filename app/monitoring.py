@@ -30,7 +30,7 @@ instrumentator.add(
         )
 )
 
-intrumentator.add(
+instrumentator.add(
         metrics.response_size(
             should_include_handler=True,
             should_include_method=True,
@@ -40,7 +40,7 @@ intrumentator.add(
         )
 )
 
-intrumentator.add(
+instrumentator.add(
         metrics.latency(
             should_include_handler=True,
             should_include_method=True,
