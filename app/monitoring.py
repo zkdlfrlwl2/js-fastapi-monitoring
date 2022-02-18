@@ -35,7 +35,7 @@ instrumentator.add(
             should_include_handler=True,
             should_include_method=True,
             should_include_status=True,
-            metric_namespace=NAMESPCAE,
+            metric_namespace=NAMESPACE,
             metric_subsystem=SUBSYSTEM,
         )
 )
