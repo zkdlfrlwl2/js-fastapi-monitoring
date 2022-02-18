@@ -66,7 +66,7 @@ def regression_model_output(
         metric_namespace: str = "",
         metric_subsystem: str = "",
         buckets=(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, float("inf")),
-) -> Callable[[Info], None:
+) -> Callable[[Info], None]:
         METRIC = Histogram(
             metric_name,
             metric_doc,
